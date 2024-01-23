@@ -8,9 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "nodemon -e ts -w ./ -x yarn dev:serve",
-    "dev:serve": "node --loader ts-node/esm ./server.ts localhost 5000",
-    "build": "tsc",
+    "dev": "nodemon yarn server.js",
     "start": "node dist/server.js"
   },
   "keywords": [],
